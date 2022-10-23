@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <h1>Resume Page</h1>
+
+    <div id="content">
+    
+      <div class="controls">
+    
+        <button id="prev">Prev</button>
+    
+        <input type="text" id="search" placeholder="Search resume"></input>
+    
+        <button id="next">Next</button>
+    
+      </div>
+    
+      <div id="error">
+        <img width="50" src='./assets/sad.png'/>
+        SORRY NO RESUME FOUND
+      </div>
+
+      <div id="disp">
+        <div class="header">
+          <div class="text">
+            <h2 id="name">Name</h2>
+            Applied for: <span id="position">Position</span>
+          </div>
+          <div class="image"><img width="80" src="./assets/person-profile-icon.svg"/></div>
+        </div>
+        <div class="content-area">
+          <div class="sidebar">
+            <h4>Personal Information</h4>
+            <div id="pi"></div>
+            <h4>Technical Skills</h4>
+            <div id="ts"></div>
+            <h4>Hobbies</h4>
+            <div id="hobbies"></div>
+          </div>
+          <div id="data">Data</div>
+        </div>
+      </div>
+    </div>
+    <h4>powerskg2010@gmail.com </h4>
+    
+    <script src="src/resume-page.js"></script>
+
+  </body>
+
+</html>

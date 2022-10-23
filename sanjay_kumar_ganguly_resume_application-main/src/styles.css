@@ -1,0 +1,110 @@
+body {
+  background-color: rgb(94, 101, 101);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.cv-app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 300px;
+  height: 200px;
+  border: 1px solid rgb(220, 58, 58);
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+.container * {
+  margin: 10px;
+}
+
+.center {
+  margin: 0 auto;
+  display: inline-block;
+}
+
+#msg {
+  color: black;
+}
+
+#content {
+  box-shadow: 0 0 5px rgba(70, 24, 24, 0.5);
+  padding: 20px;
+}
+img {
+  vertical-align: middle;
+}
+.header,
+#error {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(228, 20, 20);
+  flex: 1 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+#error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.header .text {
+  flex: 2;
+}
+
+.header .image {
+  width: 80px;
+  flex: 1;
+  text-align: right;
+}
+
+.content-area {
+  display: flex;
+  flex-direction: row;
+  flex: 1 100%;
+}
+
+.content-area .sidebar {
+  border: 1px solid rgb(219, 26, 26);
+  margin-right: 20px;
+  padding: 10px;
+  flex: 1;
+}
+
+.sidebar h4 {
+  padding: 10px;
+  margin: 0 0 10px 0;
+  background-color: lightgrey;
+}
+
+.sidebar div {
+  text-align: right;
+  margin: 0 0 10px 0;
+}
+
+.content-area #data {
+  padding: 20px;
+  flex: 6;
+  border: 1px solid red;
+}
+
+#data h3 {
+  color: rgb(122, 38, 5);
+}
+
+.controls {
+  text-align: center;
+}
